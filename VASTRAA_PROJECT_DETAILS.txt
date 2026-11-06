@@ -1,0 +1,166 @@
+================================================================================
+VASTRAA — BESPOKE TAILORING STUDIO
+COMPLETE PROJECT SPECIFICATION & ARCHITECTURE DETAILS
+================================================================================
+
+1. PROJECT OVERVIEW
+--------------------------------------------------------------------------------
+Studio Name         : Vastraa
+Domain              : Minimal & Professional Bespoke Tailoring Platform
+Design Standard     : Astra Mountain 02 One-Page Template Architecture
+Design Philosophy   : Strictly aligned to the provided template screenshots
+Palette             : Deep Teal (#1E5B6E), Atmospheric Slate Navy (#102A38), Soft Ice-Blue (#EFF5F7), Pure White
+Typography          : Modern Geometric Sans (Montserrat & Inter)
+Flagship Location   : Configurable in src/config/contact.ts (Currently null/pending update)
+Store Hours         : Monday to Sunday, 10:00 AM – 08:30 PM (All 7 Days)
+Contact Info        : Configurable in src/config/contact.ts (Currently null/pending update)
+Live URL            : http://localhost:3000/
+
+
+2. NON-COPYRIGHT PROJECT IMAGE ASSET REGISTRY
+--------------------------------------------------------------------------------
+All imagery across the website is 100% locally hosted in /public/images/ and strictly
+related to bespoke tailoring, authentic Indian textiles, and handcraft atelier work.
+Every asset was custom-generated specifically for this project and carries zero
+external copyright claims, watermarks, or third-party licensing fees:
+
+1. /public/images/bespoke-hero-bg.png (885 KB)
+   - Usage: Main Opening Page Full-Screen Hero Background.
+   - Subject: Luxury bespoke tailoring cutting table, artisan at work, antique brass
+     shears, fabric measuring tape, tailor's chalk, linen and silk swatches, and
+     shelves of fine textiles bathed in warm ambient window light with deep teal tones.
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+2. /public/images/traditional-hero.png (991 KB)
+   - Usage: Works Gallery inspection & Heirloom Alterations showcase.
+   - Subject: Ambient authentic tailoring workspace with vintage sewing machine, wooden
+     measuring scales, tailor scissors, and master tailor.
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+3. /public/images/traditional-kasavu-saree.png (774 KB)
+   - Usage: 3-Card Featured Services & Works Gallery.
+   - Subject: Authentic Kerala Kasavu cotton-silk saree with handloom gold zari pleats.
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+4. /public/images/traditional-bridal-blouse.png (952 KB)
+   - Usage: 3-Card Featured Services & Works Gallery.
+   - Subject: Heritage maroon bridal blouse featuring handcrafted South Indian Aari,
+     zardozi needlework, antique gold wire, and seed pearl embellishments.
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+5. /public/images/traditional-handcrafted-kurta.png (905 KB)
+   - Usage: 3-Card Featured Services & Works Gallery.
+   - Subject: Tailored Bhagalpuri tussar silk and handspun khadi linen kurta with
+     handmade fabric potli buttons and kantha needlework collar.
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+6. /public/images/traditional-kids-festive.png (848 KB)
+   - Usage: Works Gallery.
+   - Subject: Pure Kanjivaram brocade silk Pattu Pavadai for kids with growth pleats.
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+7. /public/images/traditional-patchwork.png (1.25 MB)
+   - Usage: Call To Action full-width banner backdrop & Works Gallery.
+   - Subject: Detailed craftwork, border trims, dabka needlework, and bridal silk tassels (latkans).
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+8. /public/images/churidaar.png (729 KB)
+   - Usage: 3-Card Featured Services.
+   - Subject: Bespoke tailored Indian Churidaar suit ensemble in rich royal midnight blue
+     and emerald green silk with fine gold zari embroidery and fitted ankle gathers.
+   - Copyright Status: 100% Original AI-Generated Project Asset (Non-Copyright).
+
+
+3. EXACT PAGE LAYOUT (MATCHING ALL TEMPLATE SCREENSHOTS)
+--------------------------------------------------------------------------------
+The landing page strictly mirrors the exact visual sections from the uploaded screenshots:
+
+1. Header / Navbar (Screenshot 1):
+   - Left: Minimal mountain geometric outline icon + "VASTRAA" in bold white uppercase.
+   - Right: Nav links ("Home", "About", "Services", "Contact") in clean white sans-serif.
+   - Far Right Action: Solid teal button "Book Now" (#1E5B6E) with lightly rounded border (rounded-md).
+   - Behavior: Transparent floating navbar over hero; solid dark slate background on scroll.
+
+2. Full-Screen Atmospheric Hero (Screenshot 1):
+   - Background: Project-related bespoke tailoring cutting room (/images/bespoke-hero-bg.png)
+     with atmospheric dark teal/slate gradient overlay.
+   - Top Kicker: "bespoke tailoring atelier" (uppercase tracking-widest).
+   - Headline: "craft your bespoke fit" in clean bold sans typography.
+   - Description: Made-to-measure bridal blouses, Kasavu pre-pleating, tailored kurtas, and alterations.
+   - Dual Buttons:
+     * "SERVICES" (Outlined white button with smooth slide to #services)
+     * "ABOUT US" (Solid white button with teal text and smooth slide to #about)
+
+3. 3-Card Featured Services (Screenshot 2):
+   - Clean 3-photo row on pure white background (#services with scroll-mt-20):
+     * Card 1: "saree draping & kasavu" (/images/traditional-kasavu-saree.png)
+     * Card 2: "bridal saari blouses" (/images/traditional-bridal-blouse.png)
+     * Card 3: "Churidaar" (/images/churidaar.png - 100% Non-copyright AI-generated Churidaar ensemble)
+   - Styling: Rounded corners (rounded-xl) with subtle shadow and border.
+   - Behavior: Pure showcase display cards (click popup disabled as requested).
+
+4. "Amazing things for you" 2-Column Split Section (Screenshot 3):
+   - Pure white background (#about with scroll-mt-20).
+   - Left Column: Bold large heading "amazing things for you" in deep navy (#102A38).
+   - Right Column: Explanation of 18-point anatomical measurements, master cutting,
+     basting trials, and 15-day fit guarantee.
+
+5. Full-Width "Call To Action" Banner (Screenshot 4):
+   - Panoramic bespoke tailoring textile background (/images/traditional-patchwork.png)
+     with atmospheric dark teal/slate overlay.
+   - Centered normal bold headline: "Call To Action" (non-italic modern bold).
+   - Subtitle with mandatory notice:
+     "There may be a booking charge due to limited slots. Request your bespoke consultation at our atelier or arrange a doorstep measurement visit."
+   - Outlined Button: "CONTACT" (crisp white outline button that triggers the booking modal).
+
+6. 6-Grid Photo Gallery on Soft Ice-Blue (Screenshot 5 & 6):
+   - Soft ice-blue backdrop (#EFF5F7).
+   - Pure 3x2 grid of 6 photographs (no borders, clean equal gaps).
+   - Hover details & click-to-inspect modal (WorkDetailModal) displaying cut, embroidery,
+     turnaround, starting price, and one-click booking.
+
+7. Clean White Footer (Screenshot 6):
+   - Pure white background (#FFFFFF py-12 border-t border-zinc-100).
+   - Left: "Home   About   Services   Contact" in teal links (#1E5B6E).
+   - Center: Mountain outline icon directly above "VASTRAA" text in deep navy.
+   - Right: "Copyright © 2026 Vastraa" in muted slate text.
+
+8. Floating Scroll-to-Top Button (Side Arrow):
+   - Crisp geometric rectangular button (#1E5B6E teal) with bold white upward arrow.
+   - Automatically surfaces when scrolled down beyond 350px.
+   - Clicking smoothly animates the view back to the top of the page.
+
+
+4. INTERACTIVE CONSULTATION & BOOKING WORKFLOW
+--------------------------------------------------------------------------------
+- Triggered by clicking "TAKE ACTION", "CONTACT", or "Book This Style":
+  * Opens the streamlined BookingModal with the mandatory advisory badge:
+    "There may be a booking charge due to limited slots"
+  * Garment selection: Blouse, Kurta, Saree Draping, Kids Festive, Alterations, Multiple Items.
+  * Location mode: Atelier Studio Visit vs. Doorstep Measurement.
+  * Preferred date (next 7 days) and time slot dropdowns.
+  * Contact info grid with validation.
+  * Confetti celebration and instant reservation confirmation card (VAS-2026-XXXX).
+  * WhatsApp feature code: Dormant in codebase.
+  * Contact information: Null-safe in src/config/contact.ts.
+
+
+5. TECHNICAL SPECIFICATIONS
+--------------------------------------------------------------------------------
+- Framework          : React 18 + Vite (TypeScript)
+- Styling            : Tailwind CSS v3 with Mountain palette (#1E5B6E, #102A38, #EFF5F7)
+- Fonts              : Montserrat & Inter
+- Icons              : Lucide React
+- Form Validation    : React Hook Form v7 + Zod v3
+- Live Dev Server    : Running on http://localhost:3000/ with polling watcher
+
+
+6. BUILD & VERIFICATION
+--------------------------------------------------------------------------------
+- Production build passed cleanly (tsc && vite build).
+- Zero compiler or styling errors.
+- Zero external image dependencies (100% local non-copyright assets).
+
+================================================================================
+END OF PROJECT SPECIFICATION
+================================================================================

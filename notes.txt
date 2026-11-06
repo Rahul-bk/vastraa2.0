@@ -1,0 +1,114 @@
+initial prompt generated using Google gemini
+
+# Role & Project Scope
+You are an expert full-stack developer and UI/UX designer. Build a modern, elegant, and mobile-first web application called **"Vastraa"** (an online portfolio and appointment booking platform for a bespoke/traditional tailoring atelier).
+
+---
+
+## 1. Technical Stack & Styling Guidelines
+- **Framework:** React with Next.js (App Router) or Vite + React
+- **Styling:** Tailwind CSS with an artisanal, warm, elegant aesthetic (e.g., warm cream/ivory backgrounds, deep royal indigo or terracotta accents, subtle gold/brass borders, clean serif headings paired with readable sans-serif body text).
+- **Icons & Motion:** Lucide-react icons, Framer Motion or Swiper.js for smooth sliding carousels, transitions, and reveal animations.
+- **Form Handling & State:** React Hook Form with Zod validation.
+
+---
+
+## 2. Core Pages & Layout Structure
+
+### A. Navigation Bar & Hero Section
+- **Navbar:** Sticky translucent header with brand logo "Vastraa", navigation links (Works, Services & Pricing, Book a Slot, About, Contact), and a prominent CTA button: **"Book an Appointment"**.
+- **Hero Section:**
+  - Headline highlighting precision fit, heritage craftsmanship, and modern styling.
+  - Quick action buttons: "Explore Our Work" and "Book Stitching Slot".
+  - Clean floating badge showing fast turnaround or customer rating.
+
+### B. Interactive Works Showcase (Sliding Carousel / Horizontal Scroll)
+- Smooth horizontal sliding carousel/slider displaying completed tailoring projects.
+- Filter chips: **All**, **Kurtas**, **Blouses & Bridal**, **Sarees & Draping**, **Patchwork & Embroidery**, **Western/Fusion**.
+- Each work card should include:
+  - High-res garment photo placeholder.
+  - Work title (e.g., "Hand-Embroidered Zari Blouse", "Bespoke Silk Kurta").
+  - Fabric details and tags (e.g., "Raw Silk", "Custom Neckline", "Aari Work").
+  - Subtle hover zoom and modal preview for full-detail inspection.
+
+### C. Services & Transparent Pricing Section
+A clean, card-based pricing table showcasing base rates ("onwards") with clear turnaround estimates and what's included:
+1. **Blouse Stitching:** Starting from ₹200 onwards (Simple lining, boat neck, princess cut, bridal options).
+2. **Kurtas & Tunics:** Starting from ₹400 onwards (Daily wear, straight cut, Anarkali, designer plackets).
+3. **Saree Pre-pleating, Draping & Tassels:** Starting from ₹500 onwards (Fall/pico, ready-to-wear draping, custom kutchu).
+4. **Patchwork & Custom Embroidery:** Starting from ₹50 onwards (Neck patches, sleeve borders, latkan additions).
+5. **Alterations & Custom Restyling:** Starting from ₹100 onwards.
+
+### D. Slot Booking & Consultation Form
+Interactive multi-step or streamlined single-page booking modal/section:
+1. **Garment Type Selection:** Multi-select chips (e.g., Blouse, Kurta, Saree finishing, Patchwork, Multiple items).
+2. **Date & Time Picker:** Interactive calendar to select preferred drop-off / measurement trial date and available time slots (e.g., 10:00 AM - 12:00 PM, 2:00 PM - 5:00 PM, 5:00 PM - 8:00 PM).
+3. **Special Requirements / Notes:** Text area for specific designs, neck cuts, or urgent wedding delivery dates.
+4. **Customer Contact:** Full Name, WhatsApp Number, Email.
+5. **Confirmation Modal:** Instant booking summary card with an option to get directions or send the booking details directly via WhatsApp webhook link (`https://wa.me/...`).
+
+### E. Social Proof & Footer
+- **Testimonials:** Clean quote cards with customer reviews praising fit and finishing.
+- **Atelier Details:** Store timings, physical address/map integration, WhatsApp direct chat floating button, and social media handles.
+
+---
+
+## 3. UI/UX & Motion Requirements
+- **Fluid Sliders:** Implement smooth drag/slide interaction for both touch and desktop devices using Framer Motion or Swiper.
+- **Micro-interactions:** Subtle lift-on-hover effects on pricing cards, smooth accordion for FAQs, and ripple feedback on buttons.
+- **Full Responsiveness:** Flawless mobile rendering so users can comfortably book via smartphone screens.
+- **Modular Component Architecture:** Split code into reusable components: `Navbar`, `Hero`, `WorksCarousel`, `PricingGrid`, `BookingForm`, and `Footer`. Provide dummy mock data arrays for works and pricing.
+
+
+
+
+
+
+
+add on update ------------------
+
+
+
+
+
+
+
+# Add-On Requirement: Kerala Traditional Tailoring Portfolio & Generated Traditional Cards
+
+Apply this add-on to keep the aesthetic and workflow purely traditional (vintage/heritage), featuring multi-image asset generation and lightweight interactive animation markers.
+
+## 1. Traditional Styling & Authentic South Indian Focus
+Revise existing UI components to ensure the application feels like a heritage atelier, not a modern fast-fashion outlet:
+- **Visual Palette:** Deep crimson (terracotta), marigold, deep indigo, and warm vintage paper/cream backdrops with ornate borders, gold zari pinstripes, and traditional motifs. Use serif fonts and handwritten accents.
+- **Traditional Language:** Emphasize traditional garments, handmade details, and manual customization processes over automated "industrial" styling:
+  - "Traditional Kerala Kasavu Saree & Draping" — "Original Kerala Kasavu with intricate gold zari, customized pleating, from ₹500 onwards".
+  - "Bridal Aari Work Blouse" — "Authentic hand-embroidery, zardosi, and beadwork on silk, from ₹600 onwards".
+  - "Pattu Pavadai & Traditional Kids' Festives" — "Graceful heritage attire for auspicious days, from ₹150 onwards".
+  - "Handcrafted Kurtas & Salwars" — "Tailored fitting on quality linen, cotton & tussar silks, from ₹400 onwards".
+  - "Traditional Patchwork & Borders" — "Sleeve Borders, Latkan (handmade tassels), and neck appliqué, from ₹50 onwards".
+
+---
+
+## 2. Multi-Image Generation & Card UI Integration
+The agent must generate and utilize realistic, culturally rich assets for the interactive showcase, replacing flat mockups. Include subtle motion-indicator overlay effects such as carousel index indicators and gentle hover glows, while preserving the rustic charm:
+1. `traditional-hero.png` — An ambient shot of an authentic Indian tailoring workspace (ateliere) with a vintage sewing machine, wooden measuring scales, vintage hand-scissors, colorful fabric rolls, and traditional Kerala sarees or ethnic materials waiting for cutting. An elder tailor and assistant are discussing an order.
+2. `traditional-kasavu-saree.png` — Close-up of a perfectly stitched and draped traditional Kerala Kasavu set-saree on a mannequin with gold-lined stitching, set against silk thread racks.
+3. `traditional-bridal-blouse.png` — A heavily embroidered maroon bridal blouse on a mannequin, showcasing hand-beaded Aari and zardosi patterns, on a velvet background.
+4. `traditional-kids-festive.png` — A vibrant silk Pattu Pavadai (traditional South Indian girls' skirt and blouse) hanging gracefully in the workshop.
+5. `traditional-handcrafted-kurta.png` — A close-up of custom linen and silk kurtas with handmade buttonholes and authentic neck stitching.
+6. `traditional-patchwork.png` — Detailed craftwork showcasing manually sewn patches, border trims, and traditional tassels (latkans) ready to be attached.
+
+---
+
+## 3. Light Animation & Card UI Behavior (Framer Motion / CSS)
+- Make each work section act as an "animated card". On hover, apply a smooth, slow lifting effect with a soft golden outer glow and slight scale (1.02x).
+- Include interactive indicators on the card (like `1 of 5` pagination dots and micro-scissors icons) to illustrate a sliding/touch-friendly carousel.
+- Maintain soft, non-modern transition physics (slow ease-in-out fade/slide) matching the timeless craftsmanship of "Vastraa".
+
+
+a fresh update for the design-----------------
+
+
+i need this whole project ui looks minimal and proffessional , please redisign  the theme (no extra fitting , direct and minimal options , professional cards and arrows , one heading on the top with the studio name "Vastraa" and short options and that would not be a harsh to look, use proffessional fond and designs)
+
+
